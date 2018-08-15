@@ -13,7 +13,7 @@ public class UsuarioController {
 		EntityManager em = JPAFactory.getEntityManager();
 		
 		// Criando um objeto usuario 
-		Usuario usu = new Usuario(1, "Pedro", "pedro", "123");
+		Usuario usu = new Usuario(null, "Pedro", "pedro", "123");
 		
 		// Iniciando uma transacao com o banco de dados
 		em.getTransaction().begin();
